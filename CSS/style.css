@@ -1,0 +1,186 @@
+/*General*/ 
+
+
+body{
+    font-family:Verdana, Geneva, Tahoma;
+    color: #0B0033;
+    background-color: #769FB6;
+}
+
+h2{
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+h3{
+    letter-spacing: 1px;
+    padding: 10px 25px;
+}
+
+h4{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+}
+
+h5{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+}
+
+li{
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 1.5;
+    list-style:circle;
+}
+
+
+/*Header*/
+
+
+header{
+    height: 70px;
+    padding: 10px;
+    margin:-10px;
+    color:#769FB6;
+    background-color:#0B0033;
+
+    font-family: Tahoma;
+    letter-spacing: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+header h1{
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+header nav{
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+}
+
+header img{
+    width: 50px;
+}
+
+header nav ul.nav-link li{
+    list-style: none;
+    display : inline-block;
+    text-align: center;
+    padding : 10px;
+}
+
+header nav ul.nav-link ul.dropdown{
+    font-size: 12px;
+    list-style: none;
+    display : none;
+    text-align: center;
+    position: absolute;
+    padding : 10px;
+}
+header nav ul.nav-link li:hover a{
+    color: #966B9D;
+}
+
+header nav .nav-link:hover ul.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul.nav-link ul.dropdown li{
+    background-color:#0B0033;
+    list-style-position: inside;
+    margin-left: -20px;
+    text-decoration: none;
+}
+
+
+header nav .nav-link ul.dropdown li:hover{
+    background-color: #966B9D;
+}
+header nav .nav-link ul.dropdown li:hover a{
+    color:#0B0033;
+}
+
+header nav ul.nav-link li a{
+    color:#769FB6;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/*Contact us*/
+
+
+.contact-us{
+    border:none;
+    padding:10px;
+    border-radius: 10px;
+    color: beige;
+    background-color: #966B9D;
+    margin:100px;
+}
+.contact-us a{
+    text-decoration: none;
+    font-family: Tahoma;
+    font-weight: 700;
+}
+
+
+/*H O M E*/
+
+/*Intro*/
+
+
+.introduction{
+    color: #0B0033;
+letter-spacing: 1px;
+    border-spacing: border-box;
+}
+
+.introduction p{
+    font-weight: 600;
+    padding: 10px 50px;
+}
+
+
+/*Footer*/
+
+
+.ci{
+    color: #966B9D;
+    background-color: #0B0033;
+    margin: -10px;
+    padding: 50px;
+}
+
+.ci ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.ci ul li{
+    list-style: none;
+    font-weight: 900;
+
+    margin: 0px 40px;
+    padding: 20px;
+}
+.ci ul li a{
+    text-decoration: none;
+}
+.ci ul li:hover{
+    color:#769FB6;
+}
+.ci ul li:hover a{
+    color:#769FB6;
+}
+
