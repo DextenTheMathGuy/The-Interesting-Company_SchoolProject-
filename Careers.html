@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Interesting Company</title>
+    
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <!--Fonts Library Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Header-->
+
+    <header>
+        <a href="home.html"><img src="Images/TheInterestingCompany_Logo.png" alt="Logo"></a>
+        <h1>The <span>Interesting</span> Company</h1>
+        <nav>
+                
+                <ul class="nav-link">
+            
+                    <li><a href="home.html">Introduction</a></li>
+                    <li><a href="About Us.html">About Us</a></li>
+                    <li><a href="Store.html">Store</a></li>
+                    <li><a href="Careers.html">Careers</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+            </ul>
+        </nav>
+
+        <button class="contact-us"><a href="#ci">Contact us</a></button>
+    </header>
+
+        <div class="form">
+        <hr>
+
+            <form action="#" method="post"> <!--Form element opening tag-->
+
+
+                <!--For Value must be same as id and name-->
+
+                <!--First Name Starting-->
+                <label for="firstname">First Name:</label></br>
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required></br>
+
+                <!--Last Name Starting-->
+                <label for="lastname">Last Name:</label></br>
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name" required></br>
+
+                <!--Email Starting-->
+                <label for="email">Email:</label></br>
+                <input type="email" id="email" name="email" placeholder="Email" required></br>
+
+                <!--Telephone Starting-->
+                <label for="telephone">Telephone Number:</label></br>
+                <input type="tel" id="telephone" name="telephone" placeholder="123-456-7890" required></br>
+
+
+                <label for="">Applying for:</label></br>
+                <select name="type" id="type" required></br><!--Select element opening tag-->
+
+                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Quality Assurance Tester">Quality Assurance Tester</option>
+
+
+                </select></br> <!--Select element ending tag-->
+
+                <!--Resume starting-->
+                <label for="resume">Resume:</label></br>
+                <input type="file" accept=".pdf, .docx" id="resume" name="resume" required></br>
+
+                <!--Message Starting-->
+                <label for="coverletter">Cover Letter / Additional Info:</label></br>
+                <textarea name="coverletter" id="coverletter" rows="8" cols="50" required></textarea></br>
+
+
+                <!--Submit Application Button-->
+                <button type="submit"><a href="appRecieved.html">Submit Application</a></button>
+
+             </form>
+
+    </div>
+
+    <footer class="ci" id="ci">
+        <ul>
+            <li><i class="fa-solid fa-phone"></i>(XXX) XXX-XXXX</li>
+            <li><i class="fa-solid fa-envelope"></i><a href="#" target="_blank">LinkedIn</a></li>
+            <li><i class="fa-solid fa-globe"></i><a href="#" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
